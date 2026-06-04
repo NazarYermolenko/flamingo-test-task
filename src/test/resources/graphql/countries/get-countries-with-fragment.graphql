@@ -1,0 +1,11 @@
+query GetCountriesWithFragment {
+  countries(filter: { code: { in: ["UA", "US"] } }) {
+    ...CountryDetails
+  }
+}
+
+fragment CountryDetails on Country {
+  name
+  code
+  capital
+}

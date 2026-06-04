@@ -1,0 +1,1 @@
+query { country(invalid_arg: "UA") { name } }

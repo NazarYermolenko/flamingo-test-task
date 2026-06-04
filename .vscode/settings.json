@@ -1,0 +1,48 @@
+{
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-17",
+            "path": "/home/nyermolenko/.asdf/installs/java/temurin-17.0.19+10",
+            "default": true
+        }
+    ],
+    "java.jdt.ls.lombokSupport.enabled": true,
+    "java.test.results.showOnFocus": true,
+    "java.completion.favoriteStaticMembers": [
+        "io.restassured.RestAssured.*",
+        "io.restassured.matcher.RestAssuredMatchers.*",
+        "org.hamcrest.Matchers.*",
+        "org.assertj.core.api.Assertions.*",
+        "org.mockito.Mockito.*",
+        "org.junit.jupiter.api.Assertions.*",
+        "org.junit.jupiter.api.Assumptions.*",
+        "org.junit.jupiter.api.DynamicTest.*",
+        "org.junit.jupiter.api.DynamicContainer.*"
+    ],
+    "java.test.report.showPassedTests": true,
+    "java.test.config": [
+        {
+            "name": "API Tests",
+            "workingDirectory": "${workspaceFolder}",
+            "args": [
+                "-Dgroups=api"
+            ],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "UI Tests",
+            "workingDirectory": "${workspaceFolder}",
+            "args": [
+                "-Dgroups=ui"
+            ],
+            "console": "integratedTerminal"
+        }
+    ],
+    "maven.terminal.useDefaultShell": true,
+    "explorer.compactFolders": false,
+    "cSpell.words": [
+        "Demoqa"
+    ]
+}

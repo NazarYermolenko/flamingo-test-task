@@ -1,0 +1,10 @@
+target/
+.asdf-installs/
+.asdf-plugins/
+*.class
+.DS_Store
+.idea/
+*.iml
+*.log
+/allure-results
+target/screenshots/

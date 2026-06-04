@@ -1,0 +1,6 @@
+query GetLimitedCountries($codes: [String!]) {
+  countries(filter: { code: { in: $codes } }) {
+    code
+    name
+  }
+}
